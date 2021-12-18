@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Graphica</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="adding.css" />
+    <link rel="stylesheet" href="content.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+  </head>
+
+  <body class="body">
+    <header class="header">
+      <nav
+        id="mainnavbar"
+        class="navbar navbar-dark navbar-expand-md py-0 justify-content-between"
+      >
+        <button
+          class="navbar-toggler"
+          data-bs-toggle="collapse"
+          data-bs-target="#navlinks"
+          aria-label="toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <a href="#" class="navbar-brand"
+          ><img src="./logo.png" alt="classhelper" class="Logo"
+        /></a>
+        <p class="ennn" href="d">///////</p>
+
+        <div class="collapse navbar-collapse" id="navlinks">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a href="" class="nav-link">HOME</a>
+            </li>
+            <li class="nav-item">
+              <a href="" class="nav-link">ERP Login</a>
+            </li>
+            <li class="nav-item">
+              <a href="" class="nav-link">AIT Moodle</a>
+            </li>
+            <li class="nav-item">
+              <a href="" class="nav-link">OSS Club</a>
+            </li>
+            <li class="nav-item">
+              <a class="text-decoration-none" href="member.html"
+                ><p id="member_button">Developers</p></a
+              >
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+    <section class="Content">
+      <div class="theory">
+        <h2 class="theoryHeading">Theory</h2>
+
+        <button class="accordion">Unit 1</button>
+        <div class="panel">
+          <a class="DC" href="https://bit.ly/328WP31"
+            >1. Differential Calculus
+
+            <a
+              href="Differential Calculus.pptx"
+              download
+              class="btn downloadBtn"
+              ><i class="fa fa-download"></i></a
+          ></a>
+
+          <!--  -->
+          <div>
+            <a class="DC" href="https://bit.ly/326vQVX"
+              >2. Taylor Series<a
+                href="Taylor Series.pptx"
+                download
+                class="btn downloadBtn"
+                ><i class="fa fa-download"></i></a
+            ></a>
+            <div>
+              <a class="DC" href="https://bit.ly/3shM6Os"
+                >3. Indeterminant Form
+                <a
+                  href="Indeterminate Forms.pptx"
+                  download
+                  class="btn downloadBtn"
+                  ><i class="fa fa-download"></i></a
+              ></a>
+            </div>
+          </div>
+        </div>
+
+        <button id="Unit2" class="accordion">Unit 2</button>
+        <div class="panel">
+          <p>Coming Soon...</p>
+        </div>
+
+        <button class="accordion">Unit 3</button>
+        <div class="panel">
+          <p>Coming Soon...</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="Content">
+      <div class="theory">
+        <h2 class="theoryHeading">Video Lecture</h2>
+
+        <button class="accordion">Unit 1</button>
+        <div class="panel">
+          <a href="https://bit.ly/3q5cqIV">1. Differential Calculus</a>
+        </div>
+
+        <button id="Unit2" class="accordion">Unit 2</button>
+        <div class="panel">
+          <p>Coming Soon...</p>
+        </div>
+
+        <button class="accordion">Unit 3</button>
+        <div class="panel">
+          <p>Coming Soon...</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="Content">
+      <div class="theory">
+        <h2 class="theoryHeading">Tutorials</h2>
+
+        <button class="accordion">Unit 1</button>
+        <div class="panel">
+          <a href="https://bit.ly/3p50CHw">1. Differential Calculus</a>
+        </div>
+
+        <button id="Unit2" class="accordion">Unit 2</button>
+        <div class="panel">
+          <p>Coming Soon...</p>
+        </div>
+
+        <button class="accordion">Unit 3</button>
+        <div class="panel">
+          <p>Coming Soon...</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- <section class="assignment">
+      <h2 class="assignmentHeading">Assignments</h2>
+
+      <button class="accordion">Unit 1</button>
+      <div class="panel">
+        <p>Lorem ipsum...</p>
+      </div>
+
+      <button class="accordion">Unit 2</button>
+      <div class="panel">
+        <p>Lorem ipsum...</p>
+      </div>
+
+      <button class="accordion">Unit 3</button>
+      <div class="panel">
+        <p>Lorem ipsum...</p>
+      </div>
+    </section> -->
+    <div class="addContent">
+      <form action="#">
+        <div class="Topic_Unit">
+          <div class="Topic">
+            <label class="ACTopic" for="topic">Topic:</label>
+            <select id="topic" name="topic">
+              <option value="choose">Choose One..</option>
+              <option value="theory">Theory</option>
+              <option value="practicals">Practicals</option>
+              <option value="assignments">Assignments</option>
+            </select>
+          </div>
+          <div class="Unit">
+            <label class="ACUnit" for="unit">Unit:</label>
+            <select name="unit" id="unit">
+              <option value="choose">Choose One..</option>
+              <option value="unit1">Unit 1</option>
+              <option value="unit2">Unit 2</option>
+              <option value="unit3">Unit 3</option>
+              <option value="unit4">Unit 4</option>
+              <option value="unit5">Unit 5</option>
+              <option value="unit6">Unit 6</option>
+            </select>
+          </div>
+        </div>
+        <div class="Title_Link">
+          <div class="Title">
+            <label class="ACTitle" for="title">Title:</label>
+            <input type="text" name="title" id="title" />
+          </div>
+          <div class="Link">
+            <label class="ACLinkName" for="link">Link:</label>
+            <input class="ACLink" type="text" name="link" id="link" />
+          </div>
+        </div>
+        <div class="Add">
+          <div class="header__links hide-for-mobile">
+            <button type="submit" href="#">ADD</button>
+          </div>
+        </div>
+      </form>
+    </div>
+
+    <script src="script.js"></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
